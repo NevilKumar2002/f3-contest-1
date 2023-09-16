@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OMDB Movie Search Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">IMDB MOVIE APP</h1>
+    <form>
+        <div class="input-div">
+            <input type="text" placeholder="API_Key" id="apiKey" required >
+            <img src="./file/Vector.svg">
+        </div>
+        <div class="input-div">
+            <input type="text" placeholder="Search" id="input_search" required>
+            <img src="./file/Ellipse_739.svg">
+        </div>
+       
+
+        <button id="button">Submit</button>
+    </form>
+    <div class="loader" id="loader"></div>
+    <div class="movies" id="movies">
+        <!-- <div class="movie-container">
+            <img src="https://picsum.photos/200/300" class="movie-image">
+            <h2>Jurasic World</h2>
+        </div> -->
+    </div>
+   
+
+  
+
+    <script src="./script.js"></script>
+</body>
+</html>
